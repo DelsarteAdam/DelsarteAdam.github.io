@@ -1,0 +1,176 @@
+/*
+
+main {
+  background-color: blueviolet;
+}
+
+article {
+  background-color: blue;
+}
+
+.headerarticle {
+  background-color: aqua;
+}
+
+.articletext {
+  background-color: goldenrod;
+}
+
+aside {
+  background-color: green;
+}
+
+*/
+
+.headermain {
+  background-color: rgb(31, 10, 70);
+}
+
+/* link styling */
+
+a {
+  color: #3030d4;
+}
+
+.navbar a {
+  color: white;
+  margin: 20px;
+}
+
+.biglinkbout {
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 7px;
+  padding: 5px;
+  align-items: center;
+  display: inline-block;
+  font-weight: bold;
+  align-items: center;
+}
+
+.biglinkbout img {
+  filter: invert(16%) sepia(43%) saturate(5648%) hue-rotate(239deg)
+    brightness(104%) contrast(111%);
+  height: 15px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.credited:link {
+  text-decoration: underline dotted;
+  text-underline-offset: 5px;
+}
+
+.credited:visited {
+  text-decoration: underline dotted;
+  text-underline-offset: 5px;
+}
+
+.credited:hover {
+  text-decoration: underline dotted;
+  text-underline-offset: 5px;
+}
+
+.credited:active {
+  text-decoration: underline dotted;
+  text-underline-offset: 5px;
+}
+
+.suivi {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  word-spacing: 15px;
+}
+
+.biglink {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding-bottom: 10px;
+  display: block;
+  padding-left: 33%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------*/
+
+.headermain {
+  height: 50px;
+}
+
+.logo {
+  height: 30px;
+}
+
+main {
+  margin-left: 20px;
+  border-left: 1px solid rgb(206, 206, 206);
+  height: 850px;
+}
+
+article {
+  width: 40%;
+  margin-left: 20px;
+  border: 1px solid rgb(206, 206, 206);
+}
+
+.ptext {
+  font-size: large;
+  padding: 20px;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 20px;
+}
+
+aside {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 20px;
+}
+
+.headerarticle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: larger;
+}
+
+nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grey {
+  color: gray;
+}
+
+.smalltext {
+  font-size: small;
+}
+
+aside section p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+aside .biglinkbout {
+  margin-left: 10%;
+  margin-top: 5px;
+}
